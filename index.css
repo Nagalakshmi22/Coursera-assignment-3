@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 2vw;
+}
+.navbar-toggler {
+    padding: .25rem .75rem; 
+    font-size: 1rem; 
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid lightslategray;
+    border-radius: .25rem;
+}
+.navbar-toggler:hover{
+    background-color: rgb(124, 123, 122);
+
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+.navbar-nav{
+    text-align: center;   
+}
+.navbar-nav a{
+    margin: 2px;
+    border: 2px solid rgb(124, 123, 122);
+}
+
+
+.navbar-nav a:hover{
+    background-color: rgb(124, 123, 122);
+    
+}
+
+.container{
+    margin: auto;
+}
+
+.row{
+    text-align: center;
+    margin: 20px;
+}
+.box h3{
+    margin-top: 5px;
+    text-align: center;
+}
+.box{
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+    background-color: rgb(161, 159, 159);
+}
+.box p{
+    padding: 15px;
+    margin: 0;
+}
+.box div{
+    padding-left: 15px;
+}
+
+
+/* super xtra small deivces */
+@media(min-width: 320px) and (max-width: 374px){
+    .navbar-dark .navbar-brand{
+        font-size: 6vw;
+    }   
+}
+/* xtra small deivces */
+@media(min-width: 375px) and (max-width: 575px){
+    .navbar-dark .navbar-brand{
+        font-size: 5vw;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 766px) { 
+    .navbar-dark .navbar-brand{
+        font-size: 4vw;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991px) {
+    .navbar-dark .navbar-brand{
+        font-size: 3vw;
+    }
+}
+
